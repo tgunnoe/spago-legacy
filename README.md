@@ -1,16 +1,19 @@
-# spago
+# [DEPRECATED] spago-legacy
 
 [![npm](https://img.shields.io/npm/v/spago.svg)][spago-npm]
-[![Latest release](https://img.shields.io/github/v/release/purescript/spago.svg)](https://github.com/purescript/spago/releases)
-[![build](https://github.com/purescript/spago/actions/workflows/build.yml/badge.svg)](https://github.com/purescript/spago/actions/workflows/build.yml)
-[![Cabal build](https://github.com/purescript/spago/actions/workflows/cabal.yml/badge.svg)](https://github.com/purescript/spago/actions/workflows/cabal.yml)
-[![Build status](https://ci.appveyor.com/api/projects/status/jydvr4sur6j6816e/branch/master?svg=true)](https://ci.appveyor.com/project/f-f/spago/branch/master)
+[![Latest release](https://img.shields.io/github/v/release/purescript/spago-legacy.svg)](https://github.com/purescript/spago-legacy/releases)
+[![build](https://github.com/purescript/spago-legacy/actions/workflows/build.yml/badge.svg)](https://github.com/purescript/spago-legacy/actions/workflows/build.yml)
+[![Cabal build](https://github.com/purescript/spago-legacy/actions/workflows/cabal.yml/badge.svg)](https://github.com/purescript/spago-legacy/actions/workflows/cabal.yml)
 [![Maintainer: f-f](https://img.shields.io/badge/maintainer-f%2d-f-teal.svg)](http://github.com/f-f)
 
 *(IPA: /ˈspaɡo/)*
 
 PureScript package manager and build tool powered by [Dhall][dhall] and
 [package-sets][package-sets].
+
+> [!WARNING]\
+> This codebase has been deprecated and is in a frozen state - only critical security vulnerabilities will be merged.\
+> Please head to the [new Spago codebase](https://github.com/purescript/spago), and keep in mind that all the following docs refer to the legacy releases of Spago, that end with the `0.21.x` line.
 
 <p align="center">
 <img src="./logo.png" height="500px" alt="Spago logo - a 3d box containing a blob of spaghetti">
@@ -22,7 +25,7 @@ The recommended installation method for Windows, Linux and macOS is `npm` (see t
   [here][spago-npm]):
 
 ```
-npm install -g spago
+npm install -g spago@0.21.0
 ```
 
 Other installation methods available:
@@ -1730,7 +1733,7 @@ the `dependencies` list in your `spago.dhall`.
 [spacchettibotti]: https://github.com/spacchettibotti
 [dhall-hash-safety]: https://github.com/dhall-lang/dhall-lang/wiki/Safety-guarantees#code-injection
 [windows-issue-yarn]: https://github.com/purescript/spago/issues/187
-[spago-latest-release]: https://github.com/purescript/spago/releases/latest
+[spago-latest-release]: https://github.com/purescript/spago/releases/tag/0.21.0
 [ubuntu-issue-netbase]: https://github.com/purescript/spago/issues/196
 [ubuntu-issue-libtinfo]: https://github.com/purescript/spago/issues/104#issue-408423391
 [package-sets-metadata]: https://github.com/spacchetti/package-sets-metadata
