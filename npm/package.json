@@ -1,18 +1,18 @@
 {
-  "name": "spago",
-  "version": "NPM_VERSION",
-  "description": "🍝 PureScript package manager and build tool powered by Dhall and package-sets",
-  "homepage": "https://github.com/purescript/spago",
+  "name": "spago-legacy",
+  "version": "0.21.0",
+  "description": "[DEPRECATED] 🍝 PureScript package manager and build tool powered by Dhall and package-sets",
+  "homepage": "https://github.com/purescript/spago-legacy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/purescript/spago.git"
+    "url": "https://github.com/purescript/spago-legacy.git"
   },
   "scripts": {
     "postinstall": "node ./install.js"
   },
   "author": "Justin Woo, Fabrizio Ferrai",
   "bin": {
-    "spago": "./spago"
+    "spago-legacy": "./spago-legacy"
   },
   "dependencies": {
     "make-fetch-happen": "^11.0.1",
