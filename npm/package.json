@@ -5,14 +5,14 @@
   "homepage": "https://github.com/purescript/spago-legacy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/purescript/spago-legacy.git"
+    "url": "git+https://github.com/purescript/spago-legacy.git"
   },
   "scripts": {
     "postinstall": "node ./install.js"
   },
   "author": "Justin Woo, Fabrizio Ferrai",
   "bin": {
-    "spago-legacy": "./spago-legacy"
+    "spago-legacy": "spago-legacy"
   },
   "dependencies": {
     "make-fetch-happen": "^11.0.1",
