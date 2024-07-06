@@ -4,7 +4,7 @@ import           Spago.Prelude
 import           Spago.Env
 
 import           Data.Version        (showVersion)
-import qualified Paths_spago         as Pcli
+import qualified Paths_spago_legacy  as Pcli
 import           Main.Utf8           (withUtf8)
 import           Spago.CLI           (Command(..))
 
