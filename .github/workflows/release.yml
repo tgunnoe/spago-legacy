@@ -39,8 +39,8 @@ jobs:
         include:
           - os: ubuntu-latest
             image: haskell:9.2.4
-          - os: macOS-latest
-          - os: windows-latest
+          # - os: macOS-latest
+          # - os: windows-latest
     steps:
       - name: Set git to use LF
         run: |
