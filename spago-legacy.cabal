@@ -1,7 +1,7 @@
 cabal-version: 2.4
 
 name:           spago-legacy
-version:        0.21.0
+version:        0.21.1
 description:    Please see the README on GitHub at <https://github.com/purescript/spago-legacy#readme>
 homepage:       https://github.com/purescript/spago-legacy#readme
 bug-reports:    https://github.com/purescript/spago-legacy/issues
