@@ -11,3 +11,5 @@ stack.yaml.lock
 **/.vscode
 .psc*
 dist-newstyle
+result
+.hix-flake/
